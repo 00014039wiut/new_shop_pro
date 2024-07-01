@@ -13,7 +13,6 @@ class Category(models.Model):
         verbose_name = 'Category'
 
 
-
 class Product(models.Model):
     class RatingChoices(models.IntegerChoices):
         zero = 0
